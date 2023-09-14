@@ -7,46 +7,46 @@ This document includes writing bug reports.
 
 ---------------------------------------------
 
-**Description:**
+**Description:** <br>
 [Product section] The user cannot see more pictures of the product.
 
-**Preconditions:**
+**Preconditions:** <br>
 Navigate to https://www.demoblaze.com/index.html
 
 **Steps to reproduce:**
 1. Click on the Samsung galaxy s6 card
 2. Click on the displayed Samsung galaxy s6 image
 
-**Expected result:**
+**Expected result:** <br>
 The image enlarges and more photos of the product can be seen.
 
-**Actual result:**
+**Actual result:** <br>
 Nothing happens when you click on the image.
 
 --------------------------------------------------------------------
 
-**Description:**
+**Description:** <br>
 [Product section] The slide with the images representing the product does not work.
 
-**Preconditions:**
+**Preconditions:** <br>
 Navigate to https://www.demoblaze.com/index.html
 
 **Steps to reproduce:**
 1. Click on the "Nokia lumia 1520"
 2. Click on the white underline buttons on the displayed phone image.
 
-**Expected result:**
+**Expected result:** <br>
 Another image of the chosen product will be displayed.
 
-**Actual result:**
+**Actual result:** <br>
 No other image is displayed to the user.
 
 -----------------------------------------------------------------------
 
-**Description:**
+**Description:** <br>
 [Contact section] The contact form accepts an invalid email address.
 
-**Preconditions:**
+**Preconditions:** <br>
 Navigate to https://www.demoblaze.com/index.html
 
 **Steps to reproduce:**
@@ -56,20 +56,25 @@ Navigate to https://www.demoblaze.com/index.html
 4. Provide a valid "Message"
 5. Click on the button "Send message"
 
-**Expected result:**
+**Expected result:** <br>
 A warning message will be displayed under the "Contact email address" field with the message: "Enter a valid email address"
 
-**Actual result:**
+**Actual result:** <br>
 The form is submitted. A pop-up with the message "Thanks for the message!!" is displayed.
+
+**Attachments:** <br>
+
+<img src="RaportDeBuguriPentruGitPOZE/images/Bug-ContactSection-WrongEmail.PNG" width="300" height="200" alt="The contact form accepts an invalid email address">
+
 
 *Notes* **Test data:** Contact Email: aaaaaaaaaaaaaaaaaaaaaaaaa  / Contact Name: Ionescu Ion / Message: This is my message.
 
 --------------------------------------------------------------------------------------------------
 
-**Description:**
+**Description:** <br>
 [Cart section] The "Place Order" form accepts an invalid card number.
 
-**Preconditions:**
+**Preconditions:** <br>
 Navigate to https://www.demoblaze.com/index.html
 Add at least one product to the shopping cart.
 
@@ -79,20 +84,20 @@ Add at least one product to the shopping cart.
 3. Enter only an invalid "Name" and "Credit card", leaving the other fields empty.
 4. Click on the "Purchase" button
 
-**Expected result:**
+**Expected result:** <br>
 Warning messages will be displayed under each field.
 
-**Actual result:**
+**Actual result:** <br>
 The form is submitted. A success message is displayed on the screen.
 
 *Notes* **Test data:** Name: eeeeeeeeeeeeeee / Credit card: pppppppppppppppppppppppppp
 
 -----------------------------------------------------------------------------------------------------------
 
-**Description:**
+**Description:** <br>
 [Sign up section] The user can create an account using an invalid username
 
-**Preconditions:**
+**Preconditions:** <br>
 Navigate to https://www.demoblaze.com/index.html
 
 **Steps to reproduce:**
@@ -101,10 +106,10 @@ Navigate to https://www.demoblaze.com/index.html
 3. Provide a valid password
 4. Click on "Sign up" button
 
-**Expected result:**
+**Expected result:** <br>
 A warning message will be displayed under the "Username" field.
 
-**Actual result:**
+**Actual result:** <br>
 The account is created. A success message is displayed: "Sign up successful."
 
 -----------------------------------------------------------------------------------------------------------
