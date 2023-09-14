@@ -119,6 +119,11 @@ A warning message will be displayed under the "Username" field.
 **Actual result:** <br>
 The account is created. A success message is displayed: "Sign up successful."
 
+**Attachments:** <be>
+
+<img src="RaportDeBuguriPentruGitPOZE/images/Bug-SignUp.PNG" width="400" height="300" alt="The user can create an account using an invalid username">
+
+
 -----------------------------------------------------------------------------------------------------------
 
 
