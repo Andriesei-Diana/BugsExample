@@ -90,6 +90,13 @@ Warning messages will be displayed under each field.
 **Actual result:** <br>
 The form is submitted. A success message is displayed on the screen.
 
+**Attachments:** <be>
+
+<img src="RaportDeBuguriPentruGitPOZE/images/Bug-CartSection-WrongName&CreditCard.PNG" width="300" height="200" alt="The "Place Order" form accepts an invalid card number">
+
+
+
+
 *Notes* **Test data:** Name: eeeeeeeeeeeeeee / Credit card: pppppppppppppppppppppppppp
 
 -----------------------------------------------------------------------------------------------------------
