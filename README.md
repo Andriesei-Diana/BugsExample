@@ -64,7 +64,7 @@ The form is submitted. A pop-up with the message "Thanks for the message!!" is d
 
 **Attachments:** <br>
 
-<img src="RaportDeBuguriPentruGitPOZE/images/Bug-ContactSection-WrongEmail.PNG" width="300" height="200" alt="The contact form accepts an invalid email address">
+<img src="RaportDeBuguriPentruGitPOZE/images/Bug-ContactSection-WrongEmail.PNG" width="400" height="300" alt="The contact form accepts an invalid email address">
 
 
 *Notes* **Test data:** Contact Email: aaaaaaaaaaaaaaaaaaaaaaaaa  / Contact Name: Ionescu Ion / Message: This is my message.
@@ -92,7 +92,7 @@ The form is submitted. A success message is displayed on the screen.
 
 **Attachments:** <be>
 
-<img src="RaportDeBuguriPentruGitPOZE/images/Bug-CartSection-WrongName&CreditCard.PNG" width="300" height="200" alt="The "Place Order" form accepts an invalid card number">
+<img src="RaportDeBuguriPentruGitPOZE/images/Bug-CartSection-WrongName&CreditCard.PNG" width="400" height="300" alt="The Place Order form accepts an invalid card number">
 
 
 
