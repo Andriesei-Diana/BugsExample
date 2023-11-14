@@ -1,11 +1,15 @@
 # BugsExample
-This document includes writing bug reports.
+
+This small project was created to provide a detailed step-by-step guide on how to create a bug report. For this demo, we chose to test the website https://www.demoblaze.com/index.html and found several significant bugs. By documenting and reporting these issues, we want to highlight the bug management process in a practical context.
+
+Step by step, we'll explore how to identify, document, and report bugs encountered during testing. This project provides the opportunity to gain an in-depth understanding of how issues are managed and resolved in a software development environment, contributing to the development of the necessary testing skills.
 
 ---------------------------------------------------------------
 
 ### Application under test:    *[Product Store](https://www.demoblaze.com/index.html)*   
 
 ---------------------------------------------
+
 
 **Description:** <br>
 [Product section] The user cannot see more pictures of the product.
@@ -23,7 +27,9 @@ The image enlarges and more photos of the product can be seen.
 **Actual result:** <br>
 Nothing happens when you click on the image.
 
+
 --------------------------------------------------------------------
+
 
 **Description:** <br>
 [Product section] The slide with the images representing the product does not work.
@@ -41,7 +47,9 @@ Another image of the chosen product will be displayed.
 **Actual result:** <br>
 No other image is displayed to the user.
 
+
 -----------------------------------------------------------------------
+
 
 **Description:** <br>
 [Contact section] The contact form accepts an invalid email address.
@@ -69,7 +77,9 @@ The form is submitted. A pop-up with the message "Thanks for the message!!" is d
 
 *Notes* **Test data:** Contact Email: aaaaaaaaaaaaaaaaaaaaaaaaa  / Contact Name: Ionescu Ion / Message: This is my message.
 
+
 --------------------------------------------------------------------------------------------------
+
 
 **Description:** <br>
 [Cart section] The "Place Order" form accepts an invalid card number.
@@ -99,7 +109,9 @@ The form is submitted. A success message is displayed on the screen.
 
 *Notes* **Test data:** Name: eeeeeeeeeeeeeee / Credit card: pppppppppppppppppppppppppp
 
+
 -----------------------------------------------------------------------------------------------------------
+
 
 **Description:** <br>
 [Sign up section] The user can create an account using an invalid username
@@ -122,6 +134,7 @@ The account is created. A success message is displayed: "Sign up successful."
 **Attachments:** <be>
 
 <img src="RaportDeBuguriPentruGitPOZE/images/Bug-SignUp.PNG" width="400" height="300" alt="The user can create an account using an invalid username">
+
 
 
 -----------------------------------------------------------------------------------------------------------
